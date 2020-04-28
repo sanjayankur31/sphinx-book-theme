@@ -353,6 +353,11 @@ dl.footnote {
             padding-top: .1rem;
             padding-bottom: .1rem;
         }
+
+        // buttons float right
+        div.dropdown-buttons-trigger, a.edit-button, a.full-screen-button {
+            float: right;
+        }
     }
 }
 
@@ -378,6 +383,8 @@ div.dropdown-buttons-trigger {
         display: none;
         position: absolute;
         max-width: 120px;
+        margin-top: .2em;
+        z-index: 1000;
 
         button.topbarbtn {
             padding-top: .35rem;
