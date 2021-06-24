@@ -209,6 +209,11 @@ main.bd-content {
     }
 }
 
+// highlight search phrases
+dt:target, span.highlighted {
+    background-color: #fbe54e;
+}
+
 // Cell-specific controls
 div.cell {
 
